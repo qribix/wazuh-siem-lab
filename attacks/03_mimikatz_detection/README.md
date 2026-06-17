@@ -128,7 +128,7 @@ systemctl restart filebeat
 ![Запуск mimikatz](screenshots/18.png)
 ![Проверка логов](screenshots/19.png)
 
-Переходим в раздел правил и находим там правило Sysmon, которое будем использовать как основу для создания своего:
+Теперь нам нужно создать правило, чтобы Wazuh начал выдавать алерты на Mimikatz, а не просто хранить логи в архиве.
 
 ![Правило Sysmon](screenshots/20.png)
 ![Правило Sysmon 2](screenshots/21.png)
